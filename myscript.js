@@ -3,17 +3,20 @@
 //* Creare una funzione per capire se la parola inserita è palindroma
 
 const usertWord = prompt('Hi! Enter the first word');
-const sameWord = ""
 
+let sameWord = 0
 
-if (usertWord.length === sameWord.length){
-    console.log('La parola è polidroma')
-} else{
-    console.log('Non è polidroma')
+for(let i = userWord.length; i  >= 0 ; i--){
+
+    sameWord = usertWord.charAt(i)
+
+console.log('The word is polidrome')
+
 }
 
 function wordCheck (word, polidromeWord){
     if (word.value === polidromeWord.value){
+        console.log(word.value) 
         return true;
     }
     return false;
